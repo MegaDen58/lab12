@@ -8,7 +8,7 @@ class ClassWithEvent
 
     public void GenerateEvent(string eventName)
     {
-        MyEvent?.Invoke(eventName);
+        MyEvent.Invoke(eventName);
     }
 }
 
